@@ -1,0 +1,230 @@
+/* Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;;
+    margin: 0 auto;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* margin-top: 130px; */
+}
+.primary-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 20px 25px;
+}
+.section-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+/* Header styles */
+.header{
+    
+}
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* justify-content: space-between; */
+}
+.header-content{
+    /* display: flex; */
+}
+.header-title{
+    color:#151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+}
+.header-description{
+    color:#444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 494px;
+}
+.header-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 20px 25px;
+}
+
+.my-failures {
+    margin-top: 130px;
+    width: 50%;
+    gap: 105px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.failure-left{
+    background-image: url('../images/person.png');
+    width: 451px;
+    height: 898px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.person-circle{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+}
+.failure-content{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+ul li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    width: 416px;
+    margin-bottom: 8px;
+}
+.fa-solid.fa-check{
+    color: #16D887;
+}
+.my-plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.my-plan1{
+    margin-top: 50px;
+    text-align: center;
+}
+.plan-image {
+    max-width: 92px;
+    height: 92px;
+  }
+ .plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .my-plan1-descript{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .my-plan-bottom{
+    margin-top: 130px;
+  }
+  .call-now-btn{
+    color: #fff;
+    background-color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+  }
+  .watch-title{
+    color:black;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+  }
+  .double-image {
+    position: relative;
+  }
+  .watch-upper-img{
+    position: absolute;
+    left: 0;
+}
+
+/* footer styles */
+footer{
+    background-color:#151414;
+    margin-top: 130px;
+}
+.footer-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+  }
+
+.footer-left-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 130px;
+
+}
+.footer-left-content, .footer-left-email, .footer-left-phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-left-email{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.footer-left-phone{
+    margin-bottom: 30px;
+}
+.social-links{
+    padding-bottom: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-icon{
+    margin-right: 10px;
+}
+.footer-right{
+    margin-left: 330px !important;
+}
+.footer-input{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+.footer-column input[type="email"]{
+    padding: 22px 158px 22px 22px;
+    border: 1px solid white;
+    color: #F3F3F3;
+    border-radius: 5px;
+    background: transparent;
+    margin-bottom: 16px;
+}
+.Subscribe-btn{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+    padding: 20px 25px;
+}
+.footer-input, input[type="email"], .Subscribe-btn{
+    margin-left: 175px;
+}
